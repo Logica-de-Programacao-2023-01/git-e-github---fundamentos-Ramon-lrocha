@@ -1,0 +1,73 @@
+1:
+leia num1
+leia num2
+se num1 + num2 = var então
+escrever var
+fim
+2:
+leia temperatura
+leia unidade
+se unidade = celsius:
+resultado = tmperatura * 1.8 + 32
+escreva o resultado é resultado
+senão:
+resultado = (temperatura - 32)/1.8
+escreva 0 resultado é resultado
+fim
+3:
+leia lista
+leia tamanho_lista
+soma = 0
+para cada elemnto da lista faça:
+        soma = elemento + soma
+media = soma/tamanho_lista
+escreva media
+fim
+4:
+leia fatorial(n)
+se n == 0
+ escreva 1
+senão
+escreva n * fatorial(n-1)
+fim
+5:
+leia buscar_elemento(elemento, lista)
+para i em lista
+se lista(i) == elemento
+escreva i
+fim
+6:
+leia número(n)
+leia potencia(x)
+faça n^x
+escreva resultado == n^x
+fim
+7:leia número (n)
+se n / 1 ou n
+escrever é número primo
+senão
+escrever não é número primo
+fim
+8:
+leia base(b)
+leia altura(h)
+faça b * h / 2 = resultado
+escrever resultado
+fim
+9:
+leia monante(principal, taxa_juros, periodo)
+se montante == principal * (1 + taxa_juros)**periodo
+escreva montante
+fim
+10:
+leia media_ponderada(valores, pesos)
+soma = 0
+soma_pesos = 0
+para x em valores
+soma = valores(x) * pesos(x)
+soma_pesos = pesos(x)
+media = soma / soma_pesos
+escreva media
+fim
+
+

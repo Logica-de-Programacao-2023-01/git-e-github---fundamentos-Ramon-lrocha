@@ -61,8 +61,8 @@ escreva montante
 fim
 10:
 leia media_ponderada(valores, pesos)
-soma = 0
-soma_pesos = 0
+var resultado = 0
+var soma_pesos = 0
 para x em valores
 soma = valores(x) * pesos(x)
 soma_pesos = pesos(x)

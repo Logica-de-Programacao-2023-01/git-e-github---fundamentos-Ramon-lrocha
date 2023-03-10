@@ -1,0 +1,6 @@
+leia x
+leia lista
+para cada elemento da lista faça 
+   se elemento = x
+       então escreva x
+escreva "não encontrado"
